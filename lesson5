@@ -1,0 +1,25 @@
+package lesson5;
+
+import java.util.Scanner;
+
+public class Kurikaesi {
+
+	public static void main(String[] args) {
+		
+		//数字入力
+		Scanner Scan= new Scanner(System.in);
+		System.out.println("数字を入力してください。");
+		int a = Scan.nextInt();
+    
+		int b =5;
+		
+		//aがbより大きくなるまで繰り返す。
+		while ( a < b ) {
+		a++;
+		}
+		
+		//繰り返した回数の表示
+		System.out.println("繰り返した回数"++"回です");
+    	}
+
+}
