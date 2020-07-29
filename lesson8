@@ -1,0 +1,23 @@
+package lesson8;
+
+import java.util.Scanner;
+
+public class Gosub {
+	
+	//数字入力
+	
+		Scanner Scan= new Scanner(System.in);
+		int a = Scan.nextInt();
+		
+		{
+		
+		for(;a<=3;a++) {
+			
+			
+			
+			System.out.println("aの値は"+a+"です。");
+			
+		}
+
+}
+}
