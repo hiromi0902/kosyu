@@ -1,0 +1,39 @@
+package lesson7;
+
+import java.util.Scanner;
+
+public class Kurikaisu {	
+	
+	    //数字入力
+		Scanner Scan= new Scanner(System.in);
+		
+		System.out.println("aの数字を入力してください。");
+		int a = Scan.nextInt();
+		
+		System.out.println("bの数字を入力してください。");
+		int b = Scan.nextInt();{
+		
+		
+		for(int i;i < 3;i++){
+			
+			if(a<b){
+			//aがbより小さい
+				
+			b=b+1;
+			System.out.println("a="+a+","+"b="+b+","+"i="+","+i);
+			
+			}
+			else{
+			//それ以外
+				
+			a=a+1;
+			System.out.println("a="+a+","+"b="+b+","+"i="+","+i);
+	
+
+			}
+	
+		}
+		
+}	
+}
+	
