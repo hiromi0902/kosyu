@@ -1,2 +1,4 @@
 module kosyu {
+
+	//abc
 }
