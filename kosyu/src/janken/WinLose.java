@@ -1,8 +1,8 @@
 package janken;
 
-public class WinLose {
+public class WinLose extends Player {
 
-	public static void battleHand(int userHand , int cpuHand) {
+	public void battleHand(int userHand , int cpuHand) {
 
 		int gu = 1;
 		int choki = 2 ;
