@@ -1,16 +1,21 @@
 package janken;
 
-import java.util.Scanner;
-
 public class Main {
 
-	public static void main(String[] args) {
-	
-		System.out.println("手を入力してください〔グー：1、チョキ：2、パー：3〕");
-
-		Scanner Scan= new Scanner(System.in);
-		int tegata = Scan.nextInt();
-		
+public static void main(String[] args) {
+	//メッセージ
+			System.out.println("じゃんけん勝負を始めます(10回勝負)");
+			
+			//繰り返し処理
+			for (int i = 1; i <= 10; i++){
+			System.out.println(i+"回戦目");
+			System.out.println("--------------------------------");	
+			
+			//メイン処理
+			
+			}
+			
+			//勝敗結果
+			
+		}
 	}
-
-}
