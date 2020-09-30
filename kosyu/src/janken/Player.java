@@ -24,13 +24,15 @@ import java.util.Scanner;
 
 			public String handName(int hand) {
 
+				String handName = "";
+
 				if(hand == 1) {
-					String handName = "グー";
+					handName = "グー";
 				}else if(hand == 2) {
-					String handName = "チョキ";
+					handName = "チョキ";
 				}else if(hand == 3){
-					String handName = "パー";
-				}else {
+					handName = "パー";
+
 				return handName ;
 
 				}
