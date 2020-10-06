@@ -32,10 +32,9 @@ import java.util.Scanner;
 					handName = "チョキ";
 				}else if(hand == 3){
 					handName = "パー";
-
+				}
 				return handName ;
 
-				}
 			}
 
 			public void  printHandName(int userHand , int cpuHand) {
