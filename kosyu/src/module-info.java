@@ -2,4 +2,6 @@ module kosyu {
 
 
 	//hello　world
+
+	
 }
